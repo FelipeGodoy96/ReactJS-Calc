@@ -1,5 +1,5 @@
 import { InputContainer } from './styles'
-import { Label, LabelComponent } from '../Label/styles'
+import { LabelComponent } from '../Label/styles'
 
 export default function Input ({value, label}) {
     return (

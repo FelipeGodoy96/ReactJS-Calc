@@ -89,7 +89,7 @@ const handleBackspace = () => {
   if (currentNumber === '0') {
     return
   } else {
-    setCurrentNumber(prev => `${prev.length == 1 ? '0' : prev.slice(0, prev.length-1)}`)
+    setCurrentNumber(prev => `${prev.length === 1 ? '0' : prev.slice(0, prev.length-1)}`)
   }
 }
 
@@ -97,7 +97,7 @@ const handleBackspace = () => {
     <>
     <Container>
       <Calc>
-        <Input value={currentNumber} label={firstPart == '0' ? '' : firstPart + operation} />
+        <Input value={currentNumber} label={firstPart === '0' ? '' : firstPart + operation} />
         <Row>
           <Button label="x" onClick={handleMultiplication}/>
           <Button label="/" onClick={handleDivision}/>
