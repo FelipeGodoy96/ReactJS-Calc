@@ -7,5 +7,4 @@ export const LabelComponent = styled.label`
     left: 0;
     font-size: 16px;
     padding: 2px 20px;
-
 `
