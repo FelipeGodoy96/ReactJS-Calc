@@ -3,6 +3,10 @@
 This project is a simple ReactJS Calculator created with [Create React App](https://github.com/facebook/create-react-app) and
 [Stylized Components](https://styled-components.com).
 
+## Screenshot
+
+![](./src/assets/images/screenshot.jpg)
+
 ## Available Scripts
 
 To run this project you can use those commands below.
